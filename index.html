@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header ul {
+            display: flex;
+            list-style-type: none;
+            font-size: 24px;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            justify-content: flex-end;
+        }
+
+        header ul li {
+            padding: 15px;
+        }
+
+        header ul li a {
+            color: aliceblue;
+            text-decoration: none;
+            transition: border-bottom 2s ease-in-out;
+        }
+
+        header ul li a:hover {
+            border-bottom: 5px solid white;
+            
+        }
+
+        button a {
+            font-size: 25px;
+        }
+
+        div div div ul li {
+            font-size: 20px;
+
+        }
+
+        div h1 {
+            font-size: 50px;
+        }
+
+        div li {
+            font-size: 20px;
+        }
+        label{color: rgb(198, 220, 249);font-size: 20px;}
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 5px;
+            font-size: 90px;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            border-color: #2563eb;
+            outline: none;
+            box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+        }
+
+        div div div form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        div div div form button:hover {
+            background-color: #1d4ed8;
+        }
+
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        footer {
+            background-color: rgba(37, 99, 235);
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #ffffff;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: rgb(5, 5, 80);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body
+    style="margin: 0; padding: 0;background-image: url(./abstract-modern-futuristic-blue-and-white-background-C1TG48.jpg);background-repeat: none;background-size: cover;background-attachment: fixed;">
+    <header style="background-color: rgb(1, 1, 57); margin: 0;">
+        <ul style="margin-right: 150px;">
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="vaccine.html">Vaccine</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div style="display: flex;justify-content: space-evenly;">
+        <div style="margin-top: 100px;width: 450px;">
+            <h1 style="font-size: 60px;">Welcome to COVID-19 Awareness Portal</h1>
+            <p style="font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nostrum,
+                laboriosam quo atque ex illum?</p>
+            <button
+                style="border: none; outline: none; background-color: rgba(37, 99, 235); color: white; padding: 10px; cursor: pointer;">
+                <a href="#" style="color: white; text-decoration: none;">See more...</a>
+            </button>
+        </div>
+        <img src="./coronavirus_PNG9.png" alt="corona virus">
+    </div>
+
+    <div  style="display: flex;justify-content: center;">
+        <div
+            style="display: flex;width: 1200px;background-image: url(OIP.jpg);border-radius: 40px;background-repeat: no-repeat;background-size: cover;justify-content: end;">
+            <div style="width: 600px;margin: 100px 50px 100px ;">
+                <h1 style="color: white;">What is COVID-19?</h1>
+                <p style="font-size: 20px;color: white;">COVID-19 is an infectious disease caused by the novel
+                    coronavirus (SARS-CoV-2). It first emerged in December 2019 in Wuhan, China, and has since spread
+                    globally, leading to a pandemic.</p>
+                <ol style="color: aliceblue;font-size: 20px;">
+                    <h3>Key Points:</h3>
+                    <li>The virus spreads primarily through respiratory droplets.</li>
+                    <li>It can also spread by touching contaminated surfaces and then touching the face.</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div style="background-color: rgb(198, 220, 249);margin-top: 100px;">
+        <div style="display: flex;justify-content: space-evenly;height: 500px;align-items: center;">
+            <div>
+                <h1 style="color: rgb(5, 5, 80);">Symptoms of COVID-19</h1>
+                <ul>
+                    <li>Common Symptoms
+                        <ul>
+                            <li>Fever</li>
+                            <li>Dry cough</li>
+                            <li>Fatige</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Severe Symptoms
+                        <ul>
+                            <li>Difficulty breathing</li>
+                            <li>Chest pain or pressure</li>
+                            <li>Loss of speech or movement</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <img src="./aa178774-05fd-4681-9bb5-72f58f78f2fd_1024.jpeg" style="width: 500px;height: 500px;" alt=""
+                srcset="">
+        </div>
+    </div>
+    <div style="margin: 70px 200px;">
+        <h1 style="color: rgb(1, 1, 57);">Preventive Measures</h1>
+        <li>Wash hands regularly with soap for at least 20 seconds.</li>
+        <li>Wear a face mask in crowded places.</li>
+        <li>Maintain at least 6 feet of social distance.</li>
+        <li>Avoid touching your face, especially eyes, nose, and mouth.</li>
+        <li>Disinfect frequently touched objects and surfaces daily.</li>
+    </div>
+    <div
+        style="background-color: rgb(198, 220, 249);display: flex;justify-content: space-evenly;align-items: center;height: 400px;">
+        <div>
+            <h1>Statistics Section</h1>
+            <h3>Global Impact</h3>
+            <ul>
+                <li><b>Total Cases: </b>700M+</li>
+                <li><b>Recovered: </b>670M+</li>
+                <li><b>Deaths+ </b>7M+</li>
+            </ul>
+        </div>
+        <img src="./OIP (1).jpg" alt="" srcset="" width="600px">
+    </div>
+    <div id="contact" style="display: flex;justify-content: center;align-items: center;margin: 70px;">
+        <div style="background-color: rgb(1, 1, 57);border-radius: 30px;;">
+
+            <div style="margin: 60px 70px ;">
+                <h2 style="color: aliceblue;text-align: center;font-size: 30px;">Contact Us</h2>
+                <form style="display: flex;flex-direction: column;"><label for="name">Full Name:</label>
+                    <input type="text" name="name" placeholder="Enter your name" required><label for="email">E-mail Address:</label>
+                    <input type="email" name="email" placeholder="Type your E-mail address" required><label for="message">Message:</label>
+                    <textarea style="width: 420px;margin-bottom: 10px;" name="message" placeholder="Write your message here..." required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2025 COVID-19 Awareness Portal. All Rights Reserved.</p>
+        <p>
+            For assistance, contact us at 
+            <a href="mailto:example@info.com">example@info.com</a> or call us at +xx xxx xxx xxxx.
+        </p>
+    </footer>
+</html>

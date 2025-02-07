@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header ul {
+        display: flex;
+        list-style-type: none;
+        font-size: 24px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    header ul li {
+        padding: 15px;
+    }
+
+    header ul li a {
+        color: aliceblue;
+        text-decoration: none;
+        transition: border-bottom 2s ease-in-out;
+    }
+
+    header ul li a:hover {
+        border-bottom: 5px solid white;
+
+    }
+
+    div div span {
+        background-color: aliceblue;
+        border-radius: 10px;
+        width: 300px;
+        box-shadow: 1px 7px 10px rgb(128, 146, 157);
+    }
+
+    div div span div {
+        margin: 30px;
+        color: rgb(1, 1, 57);
+    }
+    label{color: rgb(198, 220, 249);font-size: 20px;}
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 5px;
+            font-size: 90px;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            border-color: #2563eb;
+            outline: none;
+            box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+        }
+
+        div div div form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        div div div form button:hover {
+            background-color: #1d4ed8;
+        }
+
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        footer {
+            background-color: rgba(37, 99, 235);
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #ffffff;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: rgb(5, 5, 80);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+</style>
+
+<body
+    style="margin: 0; padding: 0;background-image: url(./abstract-modern-futuristic-blue-and-white-background-C1TG48.jpg);background-repeat: none;background-size: cover;background-attachment: fixed;">
+    <header style="background-color: rgb(1, 1, 57); margin: 0;">
+        <ul style="margin-right: 150px;">
+            <li><a href="index.html">Home</a></li>
+          
+            <li><a href="vaccine.html">Vaccine</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div style="display: flex;justify-content: space-evenly;align-items: center;margin: 100px;">
+        <div style="width: 700px;">
+            <h1 style="font-size: 70px;color: #2563eb;">Vaccine </h1>
+            <p style="font-size: 20px;">Vaccination is one of the most effective tools to protect yourself and your
+                loved ones from COVID-19. Vaccines have been carefully tested and are proven to reduce severe illness,
+                hospitalizations, and deaths caused by the virus.</p>
+        </div>
+        <img src="./th.jpg" alt="" srcset="" width="700px">
+    </div>
+    <hr>
+    <div>
+        <div style="display: flex; justify-content: space-evenly;">
+            <span>
+                <div>
+                    <h2>Pfizwer-BioNTech</h2>
+                    <li><b>Dosage: </b>2 doses, 21 daysapart</li>
+                    <li><b>Approved for ages: </b>12+</li>
+                    <li><b>Efficacy: </b>~95% effective in preventing severe illness</li>
+                </div>
+            </span>
+            <span>
+                <div>
+                    <h2>Moderna</h2>
+                    <li><b>Dosage: </b>2 doses, 28 daysapart</li>
+                    <li><b>Approved for ages: </b>18+</li>
+                    <li><b>Efficacy: </b>~94% effective </li>
+                </div>
+            </span>
+            <span>
+                <div>
+                    <h2>Johnson & Johnson</h2>
+                    <li><b>Dosage: </b>single dose</li>
+                    <li><b>Approved for ages: </b>18+</li>
+                    <li><b>Efficacy: </b>~66% effective against moderate-severe illness</li>
+                </div>
+            </span>
+            <span>
+                <div>
+                    <h2>Pfizwer-BioNTechAstraZeneca
+            </span></h2>
+            <li><b>Dosage: </b>2 doses, 4-12 weeks apart</li>
+            <li><b>Approved for ages: </b>18+</li>
+            <li><b>Efficacy: </b>~70% effective</li>
+            <button>more...</button>
+        </div></span>
+    </div>
+    <p style="color: royalblue;font-size: 30px;"><b><i>(Note: Vaccines available may vary by country and region.)</i></b></p>
+    <hr>
+    <div style="text-align: center; margin: 50px;">
+        <h2 style="color: rgb(1, 1, 57);">Why Get Vaccinated?</h2>
+        <p style="font-size: 20px; width: 80%; margin: auto;">Vaccination helps protect you from severe illness, reduces the spread of the virus, and contributes to herd immunity. It is a safe and effective way to protect yourself, your family, and your community.</p>
+    </div>
+    <div style="text-align: center; margin: 50px;">
+        <h2 style="color: rgb(1, 1, 57);">How to Get Vaccinated?</h2>
+        <p style="font-size: 20px; width: 80%; margin: auto;">You can get vaccinated by scheduling an appointment at your nearest healthcare facility, pharmacy, or vaccination center. Many countries offer free vaccinations at designated centers. Check with your local health department for more details.</p>
+    </div>
+    <div id="contact" style="display: flex;justify-content: center;align-items: center;margin: 70px;">
+        <div style="background-color: rgb(1, 1, 57);border-radius: 30px;;">
+
+            <div style="margin: 60px 70px ;">
+                <h2 style="color: aliceblue;text-align: center;font-size: 30px;">Contact Us</h2>
+                <form style="display: flex;flex-direction: column;"><label for="name">Full Name:</label>
+                    <input type="text" name="name" placeholder="Enter your name" required><label for="email">E-mail Address:</label>
+                    <input type="email" name="email" placeholder="Type your E-mail address" required><label for="message">Message:</label>
+                    <textarea style="width: 420px;margin-bottom: 10px;" name="message" placeholder="Write your message here..." required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2025 COVID-19 Awareness Portal. All Rights Reserved.</p>
+        <p>
+            For assistance, contact us at 
+            <a href="mailto:example@info.com">example@info.com</a> or call us at +xx xxx xxx xxxx.
+        </p>
+    </footer>
+
+</html>
